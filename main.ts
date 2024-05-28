@@ -4,7 +4,7 @@ basic.forever(function () {
         basic.pause(1000)
         maqueen.motorStop(maqueen.Motors.All)
         maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 100)
-        basic.pause(1000)
+        basic.pause(750)
         maqueen.motorStop(maqueen.Motors.M1)
         basic.pause(100)
     }
